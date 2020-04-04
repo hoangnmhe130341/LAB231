@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main-container {
+    width: 780px;
+    height: auto;
+    margin: auto;
+    background: url('../images/bg.jpg') center repeat-y;
+}
+.main-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.main-content .content-left{
+    width: 70%;
+    height: auto;
+    border-right: 2px dotted #e0e0e0;
+}
+.content-left .left-body{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: calc(100% - 30px);
+    height: calc(100% - 20px);
+}
+
+.image img{
+    width: 400px;
+}
+
+.left-body .article{
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.left-body .author{
+    display: flex;
+    float: right;
+    color: #42554e;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.author .icon1{
+    background: url('../images/comment.gif') no-repeat;
+    width: 10px;
+    height: 10px;
+
+}
+
+.author .icon2{
+    background: url('../images/timeicon.gif') no-repeat;
+    width: 10px;
+    height: 10px;
+
+}
+
+.main-content .content-right{
+    width: 30%;
+    height: auto;
+}
+
+.content-right .right-body{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: calc(100% - 30px);
+    height: calc(100% - 20px);
+}
+.search{
+    margin-bottom: 10px;
+}
+.search .txtSearch{
+    border: 2px dotted #e0e0e0;
+}
+.search .btnGo{
+    border: 0px;
+    background-color: transparent;
+}
+.right-body .panel{
+    margin: 0px;
+    font-weight: bold;
+}
+.top5-news .link-news{
+    margin-bottom: 20px;
+}
+.top5-news a{
+    font-size: 13px;
+    color: #42554e;
+}
+
+/*
+SEARCH
+*/
+
+.article-search{
+    height: auto;
+    margin-bottom: 20px;
+}
+.article-search .title a{
+    color: #42554e;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.article-search .image-search{
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.article-search .image-search img{
+    width: 200px;
+}
+
+.pagging{
+   clear: both;
+   margin-top: 20px;
+   text-align: center;
+}
+
+.pagging a{
+    text-decoration: none;
+    border: 1px solid red;
+}

@@ -1,0 +1,42 @@
+.header{
+    width: 100%;
+    height: 181px;
+}
+.pre-header{
+    width: 100%;
+    height: 71px;
+    background: url('../images/preheader.jpg') center no-repeat;
+}
+.banner{
+    width: 100%;
+    height: 78px;
+    background: url('../images/header.jpg') center no-repeat;
+}
+.content{
+    max-width: 768px;
+    margin: 0 auto;
+}
+.content h2{
+    color: #fff;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+.menu{
+    line-height: 32px;
+    height: 32px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    background: url('../images/menu.jpg') no-repeat center;
+}
+.item{
+    max-width: 768px;
+    margin: 0 auto;
+}
+.item a{
+    color: #fff;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+
